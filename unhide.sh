@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # unhide-all-b2.sh
 # Unhides all hidden files in a Backblaze B2 bucket (optionally within a prefix).
-# Usage: ./unhide-all-b2.sh <bucketName> [prefix] [--dry-run]
-# Example: ./unhide-all-b2.sh my-bucket some/folder --dry-run
+# Usage: ./unhide.sh <bucketName> [prefix] [--dry-run]
 
 set -euo pipefail
 
